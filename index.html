@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+<body>
+    <div class="div-main">
+        <div class="page1">
+            <h1 id="h1">change</h1>
+            <h1>the course</h1>
+            <div class="video-container" id="video-container">
+                <div class="div-play" id="div-play">PLAY</div>
+                <video autoplay loop muted src="video.mp4"></video>
+            </div>
+        </div>
+        <div class="page2">
+            <div id="elem1" class="elem">
+                <img data-scroll data-scroll-speed="1" src="DSC0079_Dexter Kim.webp" alt="">
+                <div data-scroll data-scroll-speed="-1" class="dets"></div>
+            </div>
+            <div id="elem2" class="elem">
+                <img data-scroll data-scroll-speed="1" src="JTG_2919 copy.webp" alt="">
+                <div data-scroll data-scroll-speed="-1" class="dets"></div>
+            </div>
+            <div id="elem3" class="elem">
+                <img data-scroll data-scroll-speed="1" src="Rectangle 220.webp" alt="">
+                <div data-scroll data-scroll-speed="-1" class="dets"></div>
+            </div>
+        </div>
+        <div class="page2"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
